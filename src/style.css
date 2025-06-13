@@ -137,16 +137,16 @@ text-decoration: none;
     font-size: 30px;
     z-index: 100;
     transition: transform 0.4s;
-    /* animation: saltar 2s infinite; */
+    animation: saltar 2s infinite;
 }
-/* @keyframes saltar {
+@keyframes saltar {
 0%, 100% {
     transform: translateY(0);
 }
 50% {
     transform: translateY(-15px);
 }
-} */
+}
 
 .btn-wsp:hover {
 transform: translateY(-10px);
