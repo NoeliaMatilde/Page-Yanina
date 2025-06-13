@@ -48,24 +48,38 @@ h1 {
     color: #333;
     margin: 100px 80px 0px 80px;
     margin-top: 100px;
-    font-size: 4.4em;
+    font-size: 4.6em;
     background-color: #fff;
 
 }
 
 .name {
     margin-top: 0px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 h2 {
     text-align: center;
-    color: #333;
+    color: #686d72;
     margin: 0 80px;
-    font-size: 2.8em;
+    font-size: 2.9em;
     background-color: #fff;
     font-style: normal;
     font-weight: 100;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.3em;
+}
+
+.about-me {
+    color: #333;
+    margin: 120px 80px;
+    font-size: 2.9em;
+    background-color: #fff;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.therapy-image {
+    display: block;
+    margin: 50px auto;
 }
 
 @media screen and (min-width: 1000px){
@@ -83,7 +97,7 @@ h2 {
         display: block;
         margin: -75px auto -30px;
     }
-.name {
+    .name {
         margin-bottom: 40px;
     }
 
@@ -96,5 +110,9 @@ h2 {
         font-size: 1.3em;
         font-weight: 100;
         margin-bottom: 0.5em;
+    }
+    .about-me {
+        font-size: 1.2em;
+        margin-bottom: 50px;
     }
 }
