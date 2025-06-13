@@ -84,6 +84,34 @@ h2 {
     width: 788px;
 }
 
+    .button-group {
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        align-items: center;
+    }
+    .button-group button {
+        padding: 15px 40px;
+        font-size: 2.4em;
+        border: none;
+        border-radius: 44px;
+        background-color: #5ec6ca;
+        color: #fff;
+        cursor: pointer;
+        transition: background 0.2s;
+        width: 40%;
+        height: 100px;
+        margin-bottom: 53px;
+    }
+
+    .button-group > button:last-child {
+        margin-bottom: 0;
+    }
+
+    .button-group button:hover {
+        background-color: #3ba3a7;
+    }
+
 @media screen and (min-width: 1000px){
     body {
         margin: 0 150px;
@@ -116,5 +144,33 @@ h2 {
     .about-me {
         font-size: 1em;
         margin-top: 64px;
+        display: flex;
+        margin-bottom: 100px;
+    }
+    .therapy-image {
+        width: 53%;
+        max-width: 788px;
+        margin: -31px auto;
+    }
+    .button-group {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .button-group button {
+        padding: 18px 40px;
+        font-size: 1.2em;
+        border: none;
+        border-radius: 27px;
+        background-color: #5ec6ca;
+        color: #fff;
+        cursor: pointer;
+        transition: background 0.2s;
+        width: 180px;
+        margin-bottom: 90px;
+    }
+
+    .button-group button:hover {
+        background-color: #3ba3a7;
     }
 }
