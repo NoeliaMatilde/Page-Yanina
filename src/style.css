@@ -82,6 +82,11 @@ h2 {
     text-align: center;
 }
 
+.therapy-image img {
+    width: 100%;
+    height: auto;
+}
+
     .button-group {
         display: flex;
         justify-content: center;
@@ -116,6 +121,22 @@ h2 {
     .button-group button:hover {
         background-color: #3ba3a7;
     }
+    .btn-wsp {
+        position: fixed;
+        width: 160px;
+        height: 160px;
+        line-height: 55px;
+        bottom: 4px;
+        right: 4px;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: opx 1px 10px rgb(0, 0, 0, 0.3);
+        z-index: 100;
+    }
+    img.icon-wsp {
+        width: 100%;
+    }
 
 @media screen and (min-width: 1000px){
     body {
@@ -148,14 +169,20 @@ h2 {
     }
     .about-me {
         font-size: 1em;
-        margin-top: 64px;
+        margin-top: 74px;
         display: flex;
         margin-bottom: 100px;
     }
+    .about-me div {
+        width: 100%;
+        margin: 0 auto;
+    }
     .therapy-image {
-        width: 53%;
-        max-width: 788px;
-        margin: -31px auto;
+        margin: 0 auto;
+    }
+    .therapy-image img{
+        max-width: 572px;
+        margin: 0 auto;
     }
     .button-group {
         display: flex;
@@ -168,7 +195,7 @@ h2 {
         font-size: 1.2em;
         border: none;
         border-radius: 27px;
-        background-color: #5ec6ca;
+        background-color: #3ba3a7;
         color: #fff;
         cursor: pointer;
         transition: background 0.2s;
@@ -180,6 +207,14 @@ h2 {
     }
 
     .button-group button:hover {
-        background-color: #3ba3a7;
+        background-color: #5ec6ca;
+    }
+    .btn-wsp {
+        position: fixed;
+        width: 116px;
+        height: 124px;
+        line-height: 55px;
+        bottom: 4px;
+        right: 15px;
     }
 }
