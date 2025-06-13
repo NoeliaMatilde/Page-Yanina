@@ -78,8 +78,8 @@ h2 {
 }
 
 .therapy-image {
-    display: block;
     margin: 50px auto;
+    text-align: center;
 }
 
     .button-group {
