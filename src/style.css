@@ -81,6 +81,7 @@ h2 {
 .therapy-image {
     display: block;
     margin: 50px auto;
+    width: 788px;
 }
 
 @media screen and (min-width: 1000px){
