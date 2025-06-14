@@ -9,7 +9,7 @@ h1 {
     font-size: 73px;
     text-align: center;
     color: #373737;
-    margin: 100px 80px 0px 80px;
+    margin: 100px 80px 42px 80px;
     margin-top: 100px;
     background-color: #fff;
 }
@@ -50,11 +50,6 @@ h1 {
     margin: -75px auto -77px;
 }
 
-#name {
-    font-size: 73px;
-    margin-top: 0px;
-    margin-bottom: 43px;
-}
 h2 {
     text-align: center;
     color: #686d72;
@@ -62,7 +57,7 @@ h2 {
     font-size: 3.2em;
     background-color: #fff;
     font-style: normal;
-    font-weight: 100;
+    font-weight: normal;
     margin-bottom: 0.3em;
 }
 
@@ -71,8 +66,7 @@ h2 {
     margin: 170px 80px;
     font-size: 2.8em;
     background-color: #fff;
-    font-style: normal;
-    font-weight: 100;
+    font-weight: normal;
     line-height: 1.7;
 }
 
@@ -102,7 +96,7 @@ h2 {
     font-size: 2.9em;
     border: none;
     border-radius: 68px;
-    background-color: #5aa7c7;
+    background-color: #45c1e3;
     color: #fff;
     cursor: pointer;
     transition: background 0.2s;
@@ -123,7 +117,7 @@ text-decoration: none;
 }
 
 .button-group button:hover {
-    background-color: #65c1dd;
+    background-color: #6ccddc;
 }
 
 .btn-wsp {
