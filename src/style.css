@@ -85,6 +85,8 @@ h2 {
     justify-content: center;
     flex-flow: column;
     align-items: center;
+    gap: 53px;
+    margin-bottom: 100px;
 }
 
     .button-group > a:first-child {
@@ -92,6 +94,9 @@ h2 {
 }
 
 .button-group button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     padding: 0px 40px;
     font-size: 2.9em;
     border: none;
@@ -102,7 +107,6 @@ h2 {
     transition: background 0.2s;
     width: 40%;
     height: 150px;
-    margin-bottom: 53px;
     text-decoration: none;
 }
 
@@ -200,13 +204,16 @@ img.icon-wsp {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 30px;
+        gap: 40px;
     }
     .button-group button {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
         padding: 18px 40px;
         font-size: 1.2em;
         border: none;
-        border-radius: 27px;
+        border-radius: 32px;
         color: #fff;
         cursor: pointer;
         transition: background 0.2s;
@@ -223,5 +230,28 @@ img.icon-wsp {
         line-height: 55px;
         bottom: 4px;
         right: 15px;
+    }
+    .telephone {
+        width: 36px;
+    }
+    .mail {
+        width: 45px;
+        height: auto;
+    }
+    .footer-container {
+        padding: 22px 80px;
+        background-color: #3c899f;
+        color: #fff;
+    }
+    .footer-container p {
+        width: 100%;
+        font-size: 1.2em;
+    }
+    .rights {
+        text-align: center;
+        margin: auto;
+        padding: 7px 13px;
+        background-color: #3c899f;
+        color: #fff;
     }
 }
