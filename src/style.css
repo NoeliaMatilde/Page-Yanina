@@ -42,7 +42,7 @@ body {
 }
 
 h1 {
-    font-size: 73px !important;
+    font-size: 73px;
     text-align: center;
     color: #373737;
     margin: 100px 80px 0px 80px;
