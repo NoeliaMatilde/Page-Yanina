@@ -173,7 +173,7 @@ img.icon-wsp {
     body {
         margin: 0 150px;
     }
-    .header-image {
+    #header-image {
         height: auto;
     }
     #profile-image {
