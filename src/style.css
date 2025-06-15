@@ -87,7 +87,7 @@ h2 {
     margin-bottom: 100px;
 }
 
-    .button-group > a:first-child {
+.button-group > a:first-child {
     display: contents;
 }
 
