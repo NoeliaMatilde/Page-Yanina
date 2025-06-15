@@ -190,15 +190,15 @@ img.icon-wsp {
 
     h1 {
         margin-top: 1.3em;
-        font-size: 50px;
+        font-size: 50px !important;
     }
     h2 {
-        font-size: 1.45em;
+        font-size: 1.45em !important;
         font-weight: 100;
         margin-bottom: 0.5em;
     }
     .about-me {
-        font-size: 1em;
+        font-size: 1em !important;
         margin-top: 120px;
         display: flex;
         margin-bottom: 100px;
@@ -219,6 +219,7 @@ img.icon-wsp {
         flex-direction: row;
         justify-content: center;
         gap: 40px;
+        margin-bottom: 115px;
     }
     .button-group button {
         display: flex;
@@ -257,7 +258,7 @@ img.icon-wsp {
     }
     .footer-container p {
         width: 100%;
-        font-size: 1.2em;
+        font-size: 17px !important;
         margin-left: 0px;
     }
     .rights {
@@ -266,6 +267,6 @@ img.icon-wsp {
         padding: 7px 13px;
         background-color: #3c899f;
         color: #fff;
-        font-size: 15px;
+        font-size: 15px !important;
     }
 }
