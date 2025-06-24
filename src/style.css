@@ -67,6 +67,11 @@ h2 {
     font-weight: normal;
     line-height: 1.7;
 }
+a:-webkit-any-link {
+    color: #333;
+    cursor: pointer;
+    text-decoration: none;
+}
 
 .therapy-image {
     margin: 50px 80px;
@@ -103,7 +108,7 @@ h2 {
     color: #fff;
     cursor: pointer;
     transition: background 0.2s;
-    width: 40%;
+    width: 390px;
     height: 150px;
     text-decoration: none;
 }
